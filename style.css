@@ -3,34 +3,35 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #333;
+    margin-top: 60px;
 }
 
 h2 {
     margin-bottom: 20px;
 }
 
-/* Profile Section */
-header img {
-    transition: transform 0.3s ease;
-}
-header img:hover {
-    transform: scale(1.1);
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Skills Progress Bars */
-.progress {
-    height: 25px;
-    margin-bottom: 15px;
+/* Sections */
+section {
+    padding: 50px 0;
 }
 
 /* Cards */
 .card {
-    margin-bottom: 15px;
-    padding: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
     margin-top: 20px;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
 }
